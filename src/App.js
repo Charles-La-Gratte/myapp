@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Card from "./Cards/Card";
+import CardCounter from "./Counter/CardCounter";
 
 function App() {
+  const name1 = "UnitRent";
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Card
+        cardName={"UnitRent"}
+        description={"For schools"}
+        buttonName={name1}
+      />
+      <Card
+        cardName={"WorkRent"}
+        description={"For office"}
+        buttonName={"WorkRent"}
+      />
+      <Card
+        cardName={"CreatorRent"}
+        description={"For gear"}
+        buttonName={"CreatorRent"}
+      />
+      <CardCounter/>
     </div>
   );
 }

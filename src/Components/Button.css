@@ -1,0 +1,22 @@
+/* Basic Button Styling */
+button {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding for size */
+  border: none; /* No border */
+  border-radius: 10px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect */
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Active State */
+button:active {
+  background-color: #3e8e41; /* Even darker green when clicked */
+  transform: scale(0.98); /* Slightly shrink on click */
+}
