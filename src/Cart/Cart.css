@@ -1,0 +1,47 @@
+/* Basic Button Styling */
+button {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding for size */
+  border: none; /* No border */
+  border-radius: 10px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect */
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Active State */
+button:active {
+  background-color: #3e8e41; /* Even darker green when clicked */
+  transform: scale(0.98); /* Slightly shrink on click */
+}
+.Cart{
+  margin: 20px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(3, 4, 0, 0.1);
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+/* Hover Effect */
+.Cart:hover{
+    background-color: rgb(168, 197, 241);
+}
+/* Active State */
+.Cart:active {
+  background-color: #dbe60a; 
+  transform: scale(0.98); 
+}
+.image{
+    width: 100px;
+    border-radius: 10px;
+}
+.name{
+    color: rgb(122, 129, 125);
+}
