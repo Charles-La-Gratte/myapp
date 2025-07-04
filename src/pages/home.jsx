@@ -9,7 +9,7 @@ const Home = () => {
       <div className='grid jg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-5'>
         {products.map((product,key) =>
         <ProductCart key={key} data={product}/>
-        )}
+      )}
       </div>
     </div>
   )

@@ -6,7 +6,7 @@ import { addToCart } from '../stores/cart';
 
 const ProductCart = (props) => {
     const carts = useSelector(store => store.cart.items);
-    //console.log(carts);
+    console.log(carts);
     const {id, name, price, image, slug} = props.data;
     const dispatch = useDispatch();
     const handleAddToCart = () => {
